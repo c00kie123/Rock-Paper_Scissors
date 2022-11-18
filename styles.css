@@ -1,0 +1,19 @@
+body {
+    background: grey;
+}
+#selections{
+    display:flex;
+    justify-content: center;
+
+}
+.Rock,.Scissor,.Paper{
+    height:100px;
+    width:100px;
+    cursor: pointer;
+    font-size: x-large;
+    background: grey;
+}
+.Rock:hover,.Paper:hover,.Scissor:hover{
+    transform: scale(1.1);
+
+}
